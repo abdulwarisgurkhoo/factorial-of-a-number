@@ -1,6 +1,7 @@
 /******************************************factorial_using_recursion.cpp********************************/
 #include<iostream>
 using namespace std;
+//recursive function
 int fun(int n)
     {
         
@@ -18,7 +19,7 @@ int fun(int n)
         }
 
     }
-
+//main function
 int main ()
     {
         int num;
@@ -26,14 +27,7 @@ int main ()
         cin>>num;
         cout<<"\n the factorial of number you entered is :  ";
        cout<<fun(num);
-     /*  int i=1;
-       int fact=1;
-       while (num>0)
-       {
-          fact=fact*num;
-         num-- ;
-       }
-       cout<<fact;*/
+     
         return 0;
 
     }
